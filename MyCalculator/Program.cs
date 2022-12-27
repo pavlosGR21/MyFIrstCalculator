@@ -8,8 +8,10 @@ namespace MyCalculator
 {
     internal class Program
     {
+       
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Magenta;
             double num1 = 0;
             double num2 = 0;
             double result = 0;
